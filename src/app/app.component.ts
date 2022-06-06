@@ -13,6 +13,10 @@ export class AppComponent {
 
   constructor(private router:Router){
 
+ function inicio(){
+  router.navigate(['inicio']);
+      }
+      
 function nosotros(){
     router.navigate(['nosotros']);
     }
