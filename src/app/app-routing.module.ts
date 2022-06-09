@@ -7,6 +7,10 @@ import { ProductosComponent } from './productos/productos.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'inicio', pathMatch: 'full'},
+  {path:'', redirectTo:'nosotros', pathMatch: 'full'},
+  {path:'', redirectTo:'contacto', pathMatch: 'full'},
+  {path:'', redirectTo:'productos', pathMatch: 'full'},
+
 
   {path:'nosotros', component: NosotrosComponent},
   {path:'contacto', component: ContactoComponent},
