@@ -6,12 +6,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ProductosComponent } from './productos/productos.component';
 
 const routes: Routes = [
- /*  {path:'', redirectTo:'inicio', pathMatch: 'full'},
-  {path:'nosotros', redirectTo:'nosotros', pathMatch: 'full'},
-  {path:'contacto', redirectTo:'contacto', pathMatch: 'full'},
-  {path:'productos', redirectTo:'productos', pathMatch: 'full'},
- */
-
+ {path:'', redirectTo:'inicio', pathMatch: 'full'},
   {path:'nosotros', component: NosotrosComponent},
   {path:'contacto', component: ContactoComponent},
   {path:'productos', component: ProductosComponent},
